@@ -2,9 +2,9 @@ name: Master Chef CI/CD Pipeline
 
 on:
   push:
-    branches: [ develop, main ]
+    branches: [ Develop, main ]
   pull_request:
-    branches: [ develop ]
+    branches: [ Develop ]
 
 jobs:
   build-and-test:
